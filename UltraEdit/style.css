@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Segoe UI";
+}
+.logo img {
+  width: 175px;
+  padding: 12px 0;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.right ul {
+  display: flex;
+  gap: 15px;
+}
+.right ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.right ul li span {
+  padding: 0 5px;
+  font-size: 15px;
+}
+.container {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(3, 275px);
+  grid-template-rows: repeat(4, 154px);
+  gap: 25px;
+  justify-content: center;
+  margin-top: 43px;
+  font-size: 18px;
+}
+.item {
+  max-width: 243px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  text-align: center;
+  color: #222222;
+  padding: 16px;
+}
+
+.button {
+  display: flex;
+  column-gap: 15px;
+  margin-top: 40px;
+}
+.button-eng {
+  display: flex;
+  column-gap: 15px;
+  margin-top: 64px;
+}
+.button-1 {
+  background-color: #00b6d1;
+  padding: 8px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 6px;
+  width: 98px;
+}
+.button-2 {
+  background-color: #5cb85c;
+  padding: 8px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 6px;
+  width: 98px;
+}
+a {
+  text-decoration: none;
+  color: #fafafa;
+}
+.lang {
+  font-weight: bold;
+}
+.item span {
+  font-size: 12px;
+}
+.text1 {
+  text-align: center;
+  margin-top: 56px;
+  color: #222222;
+}
+.text1 span {
+  font-size: 48px;
+}
+.text1 h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 36px 291px;
+}
+.btn {
+  text-decoration: none;
+  background-color: #00b6d1;
+  color: #fafafa;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+.text2 img {
+  width: 60px;
+  height: fit-content;
+}
+.text2 h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.text2 h3 small {
+  font-size: 14px;
+}
+.text2 {
+  display: flex;
+  gap: 20px;
+  margin-left: 331px;
+  margin-top: 57px;
+  align-items: center;
+}
+.blackcont {
+  width: 100vw;
+  height: 634px;
+  background-color: #222222;
+  margin-top: 54px;
+  padding: 48px 0;
+  overflow-y: hidden;
+}
+.gridcont {
+  display: grid;
+  padding: 24px 0;
+  grid-template-columns: repeat(2, 454px);
+  grid-template-rows: 345px;
+  justify-content: center;
+}
+.newsletter {
+  color: #fafafa;
+  padding: 21px;
+  align-content: center;
+}
+.newsletter h3 {
+  font-size: 24px;
+  padding-bottom: 10px;
+  margin-left: 44px;
+}
+.newsletter p span{
+  font-size: 16px;
+}
+.subscribe {
+  position: relative;
+  width: 280px;
+  height: 215px;
+  margin: 0 auto;
+  padding: 30px 35px;
+  background-color: white;
+  border-radius: 12px;
+}
+.subscribe h3 {
+  color: #00b6d1;
+  padding-bottom: 15px;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+.subscribe form {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.subscribe form label {
+  font-size: 14px;
+  text-align: center;
+  margin: 10px 0;
+}
+.subscribe input {
+  position: absolute;
+  left: 35px;
+  top: 119px;
+  width: 278px;
+  height: 38px;
+  font-size: 14px;
+  border: 1px solid rgb(51 51 51 / 16%);
+}
+.subscribe .sgnup-btn {
+  position: absolute;
+  bottom: 53px;
+  color: #fafafa;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #00b6d1;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 12px;
+  box-shadow: 0 12px 18px -6px rgb(77 170 242 / 37%);
+  width: 80%;
+  height: 47px;
+}
+.exe{
+  width: 60vw;
+  margin: auto;
+  padding: 30px 0;
+  vertical-align: baseline;
+  color: #fafafa;
+}
+.exe h3{
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.exe p{
+  padding-bottom: 20px;
+}
+.exe .MSI{
+  text-decoration: none;
+  color: rgb(39, 165, 182);
+}
+.white-cont{
+  display: flex;
+  width: 64vw;
+  padding: 70px 0;
+  margin: auto;
+}
+.column ul{
+  display: flex;
+  flex-direction: column;
+}
+.column ul li{
+  list-style: none;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+.column .content{
+  padding: 0 110px 0 0;
+}
+.column .heading{
+  padding: 0 0 24px 0;
+}
+.news{
+  width: 217px;
+}
+.news-h{
+  padding: 0 0 24px 0;
+}
+.news-p{
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+.news-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.news-email form input{
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding: 10px 16px;
+  border: 1px solid #22242626;
+  border-radius: 7px;
+  height: 42px;
+}
+.news-email form button{
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 25px;
+  background-color: #00b6d1;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: #00b6d1;
+  border-radius: 7px;
+  cursor: pointer;
+  height: 42px;
+}
+.footer-flex{
+  display: flex;
+  padding: 35px 0 20px;
+  margin: 0 278px;
+}
+.ue-logo{
+  padding: 0 293px 0 0;
+}
+.social-logo{
+  padding: 0 0 0 257px;
+}
+.social-logo-flex{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.ue-logo span img{
+  width: 157px;
+  height: 50px;
+}
+.X img{
+  width: 42px;
+  height: 42px;
+}
+.Github img{
+  width: 35px;
+  height: 35px;
+}
+.Youtube img{
+  width: 38px;
+  height: 38px;
+}
+.Facebook img{
+  width: 24px;
+  height: 28px;
+}
+.Instagram img{
+  width: 25px;
+  height: 25px;
+}
+.LinkedIn img{
+  width: 25px;
+  height: 25px;
+}
+.Reddit img{
+  width: 25px;
+  height: 25px;
+}
+.rights{
+  padding: 0 0 48px;
+  margin: 0 278px;
+  font-size: 12px;
+}
